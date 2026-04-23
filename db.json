@@ -1,0 +1,794 @@
+{
+  "AdminUsers": [
+    {
+      "id": "1",
+      "name": "Admin John",
+      "email": "admin.john@shopmaster.com",
+      "password": "adminPass123",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "role": "superadmin",
+      "createdAt": "2024-01-01",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6InN1cGVyYWRtaW4ifQ.abc123XYZ"
+    },
+    {
+      "id": "2",
+      "name": "Admin Alice",
+      "email": "admin.alice@shopmaster.com",
+      "password": "adminPass456",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "role": "admin",
+      "createdAt": "2024-01-05",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6ImFkbWluIn0.def456UVW"
+    },
+    {
+      "id": "3",
+      "name": "Admin Bob",
+      "email": "admin.bob@shopmaster.com",
+      "password": "adminPass789",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "role": "admin",
+      "createdAt": "2024-01-10",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImFkbWluIn0.ghi789RST"
+    },
+    {
+      "id": "4",
+      "name": "Carol White",
+      "email": "carol@example.com",
+      "password": "passCarol1",
+      "avatar": "https://i.pravatar.cc/150?img=4",
+      "role": "moderator",
+      "createdAt": "2024-01-15",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6Im1vZGVyYXRvciJ9.jkl012MNO"
+    },
+    {
+      "id": "5",
+      "name": "Dan Brown",
+      "email": "dan@example.com",
+      "password": "passDan2",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "role": "moderator",
+      "createdAt": "2024-01-20",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6Im1vZGVyYXRvciJ9.mno345JKL"
+    },
+    {
+      "id": "6",
+      "name": "Eva Green",
+      "email": "eva@example.com",
+      "password": "passEva3",
+      "avatar": "https://i.pravatar.cc/150?img=6",
+      "role": "admin",
+      "createdAt": "2024-02-01",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6ImFkbWluIn0.pqr678GHI"
+    },
+    {
+      "id": "7",
+      "name": "Frank Black",
+      "email": "frank@example.com",
+      "password": "passFrank4",
+      "avatar": "https://i.pravatar.cc/150?img=7",
+      "role": "moderator",
+      "createdAt": "2024-02-05",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6Im1vZGVyYXRvciJ9.stu901DEF"
+    },
+    {
+      "id": "8",
+      "name": "Grace Lee",
+      "email": "grace@example.com",
+      "password": "passGrace5",
+      "avatar": "https://i.pravatar.cc/150?img=8",
+      "role": "admin",
+      "createdAt": "2024-02-10",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwicm9sZSI6ImFkbWluIn0.vwx234ABC"
+    },
+    {
+      "id": "9",
+      "name": "Henry Ford",
+      "email": "henry@example.com",
+      "password": "passHenry6",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "role": "moderator",
+      "createdAt": "2024-02-15",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwicm9sZSI6Im1vZGVyYXRvciJ9.yza567XYZ"
+    },
+    {
+      "id": "10",
+      "name": "Isla Fisher",
+      "email": "isla@example.com",
+      "password": "passIsla7",
+      "avatar": "https://i.pravatar.cc/150?img=10",
+      "role": "superadmin",
+      "createdAt": "2024-02-20",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAscm9sZSI6InN1cGVyYWRtaW4ifQ.bcd890UVW"
+    }
+  ],
+  "Users": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "email": "user.jane@example.com",
+      "password": "userPass123",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "phone": "+1-555-0101",
+      "createdAt": "2024-01-01",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidHlwZSI6InVzZXIifQ.usr001AAA"
+    },
+    {
+      "id": "2",
+      "name": "Alice Cooper",
+      "email": "user.alice@example.com",
+      "password": "userPass456",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "phone": "+1-555-0102",
+      "createdAt": "2024-01-03",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidHlwZSI6InVzZXIifQ.usr002BBB"
+    },
+    {
+      "id": "3",
+      "name": "Bob Builder",
+      "email": "user.bob@example.com",
+      "password": "userPass789",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "phone": "+1-555-0103",
+      "createdAt": "2024-01-05",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidHlwZSI6InVzZXIifQ.usr003CCC"
+    },
+    {
+      "id": "4",
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "password": "password123",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "phone": "+1-555-0104",
+      "createdAt": "2024-01-07",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidHlwZSI6InVzZXIifQ.usr004DDD"
+    },
+    {
+      "id": "5",
+      "name": "David Wilson",
+      "email": "david@example.com",
+      "password": "password456",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "phone": "+1-555-0105",
+      "createdAt": "2024-01-09",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidHlwZSI6InVzZXIifQ.usr005EEE"
+    },
+    {
+      "id": "6",
+      "name": "Eve Davis",
+      "email": "eve@example.com",
+      "password": "password789",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "phone": "+1-555-0106",
+      "createdAt": "2024-01-11",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidHlwZSI6InVzZXIifQ.usr006FFF"
+    },
+    {
+      "id": "7",
+      "name": "Fiona Apple",
+      "email": "fiona@example.com",
+      "password": "passFiona1",
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "phone": "+1-555-0107",
+      "createdAt": "2024-01-13",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywidHlwZSI6InVzZXIifQ.usr007GGG"
+    },
+    {
+      "id": "8",
+      "name": "George King",
+      "email": "george@example.com",
+      "password": "passGeorge2",
+      "avatar": "https://i.pravatar.cc/150?img=18",
+      "phone": "+1-555-0108",
+      "createdAt": "2024-01-15",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidHlwZSI6InVzZXIifQ.usr008HHH"
+    },
+    {
+      "id": "9",
+      "name": "Hannah Montana",
+      "email": "hannah@example.com",
+      "password": "passHannah3",
+      "avatar": "https://i.pravatar.cc/150?img=19",
+      "phone": "+1-555-0109",
+      "createdAt": "2024-01-17",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6InVzZXIifQ.usr009III"
+    },
+    {
+      "id": "10",
+      "name": "Ivan Drago",
+      "email": "ivan@example.com",
+      "password": "passIvan4",
+      "avatar": "https://i.pravatar.cc/150?img=20",
+      "phone": "+1-555-0110",
+      "createdAt": "2024-01-19",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsdHlwZSI6InVzZXIifQ.usr010JJJ"
+    },
+    {
+      "name": "Husan",
+      "email": "kilua@gmail.com",
+      "phone": "+998 (94) 799 18 80",
+      "password": "Husan",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "createdAt": "2026-04-23",
+      "token": "usr_1776978746293",
+      "id": "wsxrDqNSGNk"
+    }
+  ],
+  "Products": [
+    {
+      "id": "1",
+      "name": "Product A",
+      "price": 19.99,
+      "description": "Lorem ipsum dolor sit amet.",
+      "image": "https://picsum.photos/seed/productA/300/200",
+      "category": "Electronics",
+      "stock": 50
+    },
+    {
+      "id": "2",
+      "name": "Product B",
+      "price": 29.99,
+      "description": "Sed do eiusmod tempor incididunt.",
+      "image": "https://picsum.photos/seed/productB/300/200",
+      "category": "Clothing",
+      "stock": 30
+    },
+    {
+      "id": "3",
+      "name": "Product C",
+      "price": 39.99,
+      "description": "Ut enim ad minim veniam.",
+      "image": "https://picsum.photos/seed/productC/300/200",
+      "category": "Home",
+      "stock": 20
+    },
+    {
+      "id": "4",
+      "name": "Product D",
+      "price": 49.99,
+      "description": "Duis aute irure dolor in reprehenderit.",
+      "image": "https://picsum.photos/seed/productD/300/200",
+      "category": "Sports",
+      "stock": 15
+    },
+    {
+      "id": "5",
+      "name": "Product E",
+      "price": 59.99,
+      "description": "Excepteur sint occaecat cupidatat.",
+      "image": "https://picsum.photos/seed/productE/300/200",
+      "category": "Electronics",
+      "stock": 40
+    },
+    {
+      "id": "6",
+      "name": "Product F",
+      "price": 69.99,
+      "description": "Sunt in culpa qui officia deserunt.",
+      "image": "https://picsum.photos/seed/productF/300/200",
+      "category": "Books",
+      "stock": 100
+    },
+    {
+      "id": "7",
+      "name": "Product G",
+      "price": 79.99,
+      "description": "Mollit anim id est laborum.",
+      "image": "https://picsum.photos/seed/productG/300/200",
+      "category": "Clothing",
+      "stock": 25
+    },
+    {
+      "name": "Product H",
+      "price": 89.99,
+      "category": "Home",
+      "stock": 20,
+      "description": "Curabitur pretium tincidunt lacus.",
+      "image": "https://picsum.photos/seed/productH/300/200",
+      "id": "8"
+    },
+    {
+      "id": "9",
+      "name": "Product I",
+      "price": 99.99,
+      "description": "Nulla gravida orci a odio.",
+      "image": "https://picsum.photos/seed/productI/300/200",
+      "category": "Sports",
+      "stock": 35
+    },
+    {
+      "id": "10",
+      "name": "Product J",
+      "price": 109.99,
+      "description": "Nullam varius ante in tempus.",
+      "image": "https://picsum.photos/seed/productJ/300/200",
+      "category": "Books",
+      "stock": 60
+    }
+  ],
+  "Orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productId": 2,
+      "quantity": 3,
+      "totalPrice": 89.97,
+      "status": "delivered",
+      "orderDate": "2024-02-01"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "productId": 1,
+      "quantity": 1,
+      "totalPrice": 19.99,
+      "status": "pending",
+      "orderDate": "2024-02-03"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "productId": 3,
+      "quantity": 2,
+      "totalPrice": 79.98,
+      "status": "shipped",
+      "orderDate": "2024-02-05"
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "productId": 4,
+      "quantity": 1,
+      "totalPrice": 49.99,
+      "status": "delivered",
+      "orderDate": "2024-02-07"
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "productId": 5,
+      "quantity": 2,
+      "totalPrice": 119.98,
+      "status": "cancelled",
+      "orderDate": "2024-02-09"
+    },
+    {
+      "id": "6",
+      "userId": 6,
+      "productId": 6,
+      "quantity": 4,
+      "totalPrice": 279.96,
+      "status": "pending",
+      "orderDate": "2024-02-11"
+    },
+    {
+      "id": "7",
+      "userId": 7,
+      "productId": 7,
+      "quantity": 1,
+      "totalPrice": 79.99,
+      "status": "shipped",
+      "orderDate": "2024-02-13"
+    },
+    {
+      "id": "8",
+      "userId": 8,
+      "productId": 8,
+      "quantity": 3,
+      "totalPrice": 269.97,
+      "status": "delivered",
+      "orderDate": "2024-02-15"
+    },
+    {
+      "id": "9",
+      "userId": 9,
+      "productId": 9,
+      "quantity": 2,
+      "totalPrice": 199.98,
+      "status": "pending",
+      "orderDate": "2024-02-17"
+    },
+    {
+      "id": "10",
+      "userId": 10,
+      "productId": 10,
+      "quantity": 1,
+      "totalPrice": 109.99,
+      "status": "shipped",
+      "orderDate": "2024-02-19"
+    },
+    {
+      "id": "MZitDDIVOa0",
+      "userId": "wsxrDqNSGNk",
+      "productId": "8",
+      "quantity": 10,
+      "totalPrice": 899.9,
+      "status": "pending",
+      "orderDate": "2026-04-23"
+    }
+  ],
+  "Reviews": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productId": 2,
+      "rating": 4,
+      "comment": "Great product! Highly recommend.",
+      "avatar": "https://i.pravatar.cc/150?img=11",
+      "date": "2024-02-05"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "productId": 1,
+      "rating": 5,
+      "comment": "Excellent quality and fast shipping.",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "date": "2024-02-06"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "productId": 3,
+      "rating": 3,
+      "comment": "Average product, could be better.",
+      "avatar": "https://i.pravatar.cc/150?img=13",
+      "date": "2024-02-07"
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "productId": 4,
+      "rating": 5,
+      "comment": "Absolutely love it! Perfect fit.",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "date": "2024-02-08"
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "productId": 5,
+      "rating": 2,
+      "comment": "Not what I expected, disappointed.",
+      "avatar": "https://i.pravatar.cc/150?img=15",
+      "date": "2024-02-09"
+    },
+    {
+      "id": "6",
+      "userId": 6,
+      "productId": 6,
+      "rating": 4,
+      "comment": "Good value for money.",
+      "avatar": "https://i.pravatar.cc/150?img=16",
+      "date": "2024-02-10"
+    },
+    {
+      "id": "7",
+      "userId": 7,
+      "productId": 7,
+      "rating": 5,
+      "comment": "Outstanding! Will buy again.",
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "date": "2024-02-11"
+    },
+    {
+      "id": "8",
+      "userId": 8,
+      "productId": 8,
+      "rating": 3,
+      "comment": "Decent but packaging was damaged.",
+      "avatar": "https://i.pravatar.cc/150?img=18",
+      "date": "2024-02-12"
+    },
+    {
+      "id": "9",
+      "userId": 9,
+      "productId": 9,
+      "rating": 4,
+      "comment": "Really happy with the purchase.",
+      "avatar": "https://i.pravatar.cc/150?img=19",
+      "date": "2024-02-13"
+    },
+    {
+      "id": "10",
+      "userId": 10,
+      "productId": 10,
+      "rating": 1,
+      "comment": "Terrible quality, would not recommend.",
+      "avatar": "https://i.pravatar.cc/150?img=20",
+      "date": "2024-02-14"
+    }
+  ],
+  "Cart": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productId": 2,
+      "quantity": 2,
+      "productImage": "https://picsum.photos/seed/productB/300/200",
+      "productName": "Product B",
+      "price": 29.99
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "productId": 1,
+      "quantity": 1,
+      "productImage": "https://picsum.photos/seed/productA/300/200",
+      "productName": "Product A",
+      "price": 19.99
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "productId": 3,
+      "quantity": 3,
+      "productImage": "https://picsum.photos/seed/productC/300/200",
+      "productName": "Product C",
+      "price": 39.99
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "productId": 4,
+      "quantity": 1,
+      "productImage": "https://picsum.photos/seed/productD/300/200",
+      "productName": "Product D",
+      "price": 49.99
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "productId": 5,
+      "quantity": 2,
+      "productImage": "https://picsum.photos/seed/productE/300/200",
+      "productName": "Product E",
+      "price": 59.99
+    },
+    {
+      "id": "6",
+      "userId": 6,
+      "productId": 6,
+      "quantity": 4,
+      "productImage": "https://picsum.photos/seed/productF/300/200",
+      "productName": "Product F",
+      "price": 69.99
+    },
+    {
+      "id": "7",
+      "userId": 7,
+      "productId": 7,
+      "quantity": 1,
+      "productImage": "https://picsum.photos/seed/productG/300/200",
+      "productName": "Product G",
+      "price": 79.99
+    },
+    {
+      "id": "8",
+      "userId": 8,
+      "productId": 8,
+      "quantity": 3,
+      "productImage": "https://picsum.photos/seed/productH/300/200",
+      "productName": "Product H",
+      "price": 89.99
+    },
+    {
+      "id": "9",
+      "userId": 9,
+      "productId": 9,
+      "quantity": 2,
+      "productImage": "https://picsum.photos/seed/productI/300/200",
+      "productName": "Product I",
+      "price": 99.99
+    },
+    {
+      "id": "10",
+      "userId": 10,
+      "productId": 10,
+      "quantity": 1,
+      "productImage": "https://picsum.photos/seed/productJ/300/200",
+      "productName": "Product J",
+      "price": 109.99
+    }
+  ],
+  "Supports": [
+    {
+      "id": "2",
+      "userId": 2,
+      "message": "I need help with product B.",
+      "date": "2024-02-02"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "message": "I'm having trouble with product C.",
+      "date": "2024-02-03"
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "message": "I need help with product D.",
+      "date": "2024-02-04"
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "message": "I have a question about product E.",
+      "date": "2024-02-05"
+    },
+    {
+      "id": "6",
+      "userId": 6,
+      "message": "I need help with product F.",
+      "date": "2024-02-06"
+    },
+    {
+      "id": "7",
+      "userId": 7,
+      "message": "I'm having trouble with product G.",
+      "date": "2024-02-07"
+    },
+    {
+      "id": "8",
+      "userId": 8,
+      "message": "I need help with product H.",
+      "date": "2024-02-08"
+    },
+    {
+      "id": "9",
+      "userId": 9,
+      "message": "I have a question about product I.",
+      "date": "2024-02-09"
+    },
+    {
+      "id": "10",
+      "userId": 10,
+      "message": "I need help with product J.",
+      "date": "2024-02-10"
+    }
+  ],
+  "VerifyAdminTokens": [
+    {
+      "id": "1",
+      "userId": 1,
+      "role": "superadmin",
+      "createdAt": "2024-02-01",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6InN1cGVyYWRtaW4ifQ.abc123XYZ"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "role": "admin",
+      "createdAt": "2024-02-02",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6ImFkbWluIn0.def456UVW"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "role": "admin",
+      "createdAt": "2024-02-03",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6ImFkbWluIn0.ghi789RST"
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "role": "moderator",
+      "createdAt": "2024-02-04",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6Im1vZGVyYXRvciJ9.jkl012MNO"
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "role": "moderator",
+      "createdAt": "2024-02-05",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6Im1vZGVyYXRvciJ9.mno345JKL"
+    },
+    {
+      "id": "6",
+      "userId": 6,
+      "role": "admin",
+      "createdAt": "2024-02-06",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Niwicm9sZSI6ImFkbWluIn0.pqr678GHI"
+    },
+    {
+      "id": "7",
+      "userId": 7,
+      "role": "moderator",
+      "createdAt": "2024-02-07",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywicm9sZSI6Im1vZGVyYXRvciJ9.stu901DEF"
+    },
+    {
+      "id": "8",
+      "userId": 8,
+      "role": "admin",
+      "createdAt": "2024-02-08",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwicm9sZSI6ImFkbWluIn0.vwx234ABC"
+    },
+    {
+      "id": "9",
+      "userId": 9,
+      "role": "moderator",
+      "createdAt": "2024-02-09",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwicm9sZSI6Im1vZGVyYXRvciJ9.yza567XYZ"
+    },
+    {
+      "id": "10",
+      "userId": 10,
+      "role": "superadmin",
+      "createdAt": "2024-02-10",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAscm9sZSI6InN1cGVyYWRtaW4ifQ.bcd890UVW"
+    }
+  ],
+  "VerifyUserTokens": [
+    {
+      "id": "1",
+      "userId": 1,
+      "type": "user",
+      "createdAt": "2024-02-01",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwicm9sZSI6InVzZXIifQ.usr001AAA"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "type": "user",
+      "createdAt": "2024-02-02",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6InVzZXIifQ.usr002BBB"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "type": "user",
+      "createdAt": "2024-02-03",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywicm9sZSI6InVzZXIifQ.usr003CCC"
+    },
+    {
+      "id": "4",
+      "userId": 4,
+      "type": "user",
+      "createdAt": "2024-02-04",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwicm9sZSI6InVzZXIifQ.usr004DDD"
+    },
+    {
+      "id": "5",
+      "userId": 5,
+      "type": "user",
+      "createdAt": "2024-02-05",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwidHlwZSI6InVzZXIifQ.usr005EEE"
+    },
+    {
+      "id": "6",
+      "userId": 6,
+      "type": "user",
+      "createdAt": "2024-02-06",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidHlwZSI6InVzZXIifQ.usr006FFF"
+    },
+    {
+      "id": "7",
+      "userId": 7,
+      "type": "user",
+      "createdAt": "2024-02-07",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywidHlwZSI6InVzZXIifQ.usr007GGG"
+    },
+    {
+      "id": "8",
+      "userId": 8,
+      "type": "user",
+      "createdAt": "2024-02-08",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidHlwZSI6InVzZXIifQ.usr008HHH"
+    },
+    {
+      "id": "9",
+      "userId": 9,
+      "type": "user",
+      "createdAt": "2024-02-09",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidHlwZSI6InVzZXIifQ.usr009III"
+    },
+    {
+      "id": "10",
+      "userId": 10,
+      "type": "user",
+      "createdAt": "2024-02-10",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsdHlwZSI6InVzZXIifQ.usr010JJJ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
